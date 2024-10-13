@@ -28,7 +28,12 @@
     docker run --rm your_dockerhub_username/your_image_name:latest
     ```
 
+4. Copy from app output.jpg:
+```sh
+   docker cp face_detection_container:/app/output.jpg .
+    ```
+
+
 ## GitHub Actions
 
-This repository uses GitHub Actions to automatically build and push the Docker image to Docker Hub on every push to the `main` branch.
-
+Этот репозиторий использует GitHub Action для автоматического build и push в Docker Image в Docker Hub каждый раз, когда push 'main' branch
