@@ -12,20 +12,20 @@
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your_github_username/your_repository.git
+    git clone https://github.com/g4kuen/opencv_face_detection
     cd your_repository
     ```
 
 2. Build the Docker image:
 
     ```sh
-    docker build -t your_dockerhub_username/your_image_name:latest .
+    docker build -t onotibable/opencv_face_detection:latest .
     ```
 
 3. Run the Docker container:
 
     ```sh
-    docker run --rm your_dockerhub_username/your_image_name:latest
+    docker run --rm onotibable/opencv_face_detection:latest
     ```
 
 4. Copy from app output.jpg:
